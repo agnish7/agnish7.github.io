@@ -116,64 +116,7 @@ function populateContent() {
     </article>`
   ).join('');
 
-  // Experience
-  // Experience
-  const customExperience = [
-    {
-      role: "Agentic AI / GenAI Engineer",
-      company: "Delta Dental",
-      location: "Oak Brook, IL",
-      period: "Aug 2025 – Feb 2026",
-      achievements: [
-        "Designed multi-agent AI workflows using AWS Bedrock",
-        "Built RAG pipelines using FAISS, Pinecone, and pgvector",
-        "Implemented LangChain and LangGraph orchestration",
-        "Developed NL2SQL using OpenAI and Claude",
-        "Built observability using CloudWatch and MLflow"
-      ],
-      technologies: "Python, AWS Bedrock, LangChain, LangGraph, DSPy, OpenAI, Pinecone, FAISS, MLflow"
-    },
-    {
-      role: "Junior Data Scientist",
-      company: "HCL Technologies",
-      location: "Hyderabad, India",
-      period: "Oct 2021 – Jul 2023",
-      achievements: [
-        "Built ML models for credit risk prediction",
-        "Developed Spark pipelines on Hadoop",
-        "Created dashboards using Tableau",
-        "Improved model performance and analytics delivery"
-      ],
-      technologies: "Python, R, SQL, Spark, Hadoop, XGBoost, Tableau"
-    },
-    {
-      role: "Software Engineer – Data & Cloud Analytics",
-      company: "V dot Technologies",
-      location: "Bengaluru, India",
-      period: "Oct 2020 – Sep 2021",
-      achievements: [
-        "Built AWS data pipelines processing 10M+ records daily with ML-powered classification and quality validation",
-        "Created NLP analytics dashboard automating insights from unstructured docs, cutting manual review by 40%",
-        "Production anomaly detection boosted issue discovery by 30% over rule-based baselines",
-        "Designed CI/CD for model rollout with Docker and CodePipeline enabling weekly AI updates",
-        "Optimized GPU workloads via spot strategies and batching, trimming compute spend by 15%",
-        "Mentored engineers on deep learning, prompt design, and AI architecture"
-      ],
-      technologies: "Python, TensorFlow, PyTorch, Transformers, AWS (EC2, Lambda, SageMaker, S3), Docker"
-    }
-  ];
 
-  const experienceTimeline = document.getElementById('experience-timeline');
-  experienceTimeline.innerHTML = customExperience.map(exp => `
-    <div class="timeline-item">
-      <div class="timeline-date">${exp.period} · ${exp.company} · ${exp.location}</div>
-      <h3>${exp.role}</h3>
-      <ul>
-        ${exp.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
-      </ul>
-      <div class="stack-line">Tech: ${exp.technologies}</div>
-    </div>
-  `).join('');
   
   // Education
   const educationGrid = document.getElementById('education-grid');
