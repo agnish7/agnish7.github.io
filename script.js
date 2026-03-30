@@ -27,7 +27,7 @@ async function loadPortfolioData() {
 function populateContent() {
   if (!portfolioData) return;
 
-  const { personal, stats, currentFocus, summary, skills, projects, experience, education, publications, certifications } = portfolioData;
+ const { personal, stats, currentFocus, summary, skills, projects, education, publications, certifications } = portfolioData;
 
   // Navigation
   document.getElementById('nav-brand').textContent = personal.name;
