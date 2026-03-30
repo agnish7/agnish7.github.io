@@ -117,7 +117,7 @@ function populateContent() {
   ).join('');
 
   // Experience
-  const experience = [
+const experience = [
   {
     role: "Agentic AI / GenAI Engineer",
     company: "Delta Dental",
@@ -146,29 +146,22 @@ function populateContent() {
     technologies: "Python, R, SQL, Spark, Hadoop, XGBoost, Tableau"
   },
   {
-    role: "Software Engineer",
-    company: "VDOT Technologies",
-    location: "Bengaluru, India",
+    role: "Software Engineer – Data & Cloud Analytics",
+    company: "V dot Technologies",
+    location: "Bengaluru",
     period: "Oct 2020 – Sep 2021",
     achievements: [
-      "Built AWS pipelines processing 10M+ records daily",
-      "Created NLP dashboard reducing manual work by 40%",
-      "Implemented CI/CD for AI deployments"
+      "Built AWS data pipelines processing 10M+ records daily with ML-powered classification and quality validation",
+      "Created NLP analytics dashboard automating insights from unstructured docs, cutting manual review by 40%",
+      "Production anomaly detection boosted issue discovery by 30% over rule-based baselines",
+      "Designed CI/CD for model rollout with Docker + CodePipeline enabling weekly AI updates",
+      "Optimized GPU workloads via spot strategies and batching, trimming compute spend by 15%",
+      "Mentored engineers on deep learning, prompt design, and AI architecture"
     ],
-    technologies: "Python, AWS, Docker, NLP"
+    technologies: "Python, TensorFlow, PyTorch, Transformers, AWS (EC2, Lambda, SageMaker, S3), Docker"
   }
-];
-  const experienceTimeline = document.getElementById('experience-timeline');
-  experienceTimeline.innerHTML = experience.map(exp => 
-    `<div class="timeline-item">
-      <div class="timeline-date">${exp.period} · ${exp.company} · ${exp.location}</div>
-      <h3>${exp.role}</h3>
-      <ul>
-        ${exp.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
-      </ul>
-      <div class="stack-line">Tech: ${exp.technologies}</div>
-    </div>`
-  ).join('');
+]; 
+
 
   // Education
   const educationGrid = document.getElementById('education-grid');
