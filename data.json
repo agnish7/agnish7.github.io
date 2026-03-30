@@ -235,54 +235,29 @@
     }
   ],
   "experience": [
-  {
-    "role": "Agentic AI / GenAI Engineer",
-    "company": "Delta Dental",
-    "location": "Oak Brook, IL",
-    "period": "Aug 2025 – Feb 2026",
-    "achievements": [
-      "Designed multi-agent AI workflows using AWS Bedrock",
-      "Built RAG pipelines using FAISS, Pinecone, and pgvector",
-      "Implemented LangChain and LangGraph orchestration",
-      "Developed NL2SQL using OpenAI and Claude",
-      "Built observability using CloudWatch and MLflow"
-    ],
-    "technologies": "Python, AWS Bedrock, LangChain, LangGraph, DSPy, OpenAI, Pinecone, FAISS, MLflow"
-  },
-  {
-    "role": "Junior Data Scientist",
-    "company": "HCL Technologies",
-    "location": "Hyderabad, India",
-    "period": "Oct 2021 – Jul 2023",
-    "achievements": [
-      "Built ML models for credit risk prediction",
-      "Developed Spark pipelines on Hadoop",
-      "Created dashboards using Tableau",
-      "Improved model performance and analytics delivery"
-    ],
-    "technologies": "Python, R, SQL, Spark, Hadoop, XGBoost, Tableau"
-  },
-  {
-    "role": "Software Engineer | V dot Technologies",
-    "company": "V dot Technologies",
-    "location": "Bengaluru, India",
-    "period": "Oct 2020 – Sep 2021",
-    "achievements": [
-      "Designed and deployed automated data analytics pipelines using AWS Glue, Lambda, and S3",
-      "Implemented Dockerized ETL workflows with CI/CD via AWS CodePipeline",
-      "Improved operational efficiency through infrastructure-as-code with CloudFormation",
-      "Improved dashboard accuracy by resolving data quality issues",
-      "Monitored pipeline health and reduced downstream reporting errors"
-    ],
-    "technologies": "Python, AWS, Docker, Pandas, NumPy"
-  }
-]
+    {
+      "period": "Oct 2022 – Aug 2023",
+      "period": "Oct 2020 – Sep 2021",
+      "company": "V dot Technologies",
+      "location": "Bengaluru",
+      "role": "Software Engineer – Data & Cloud Analytics",
+      "achievements": [
+        "Built AWS data pipelines processing 10M+ records daily with ML-powered classification and quality validation.",
+        "Created NLP analytics dashboard automating insights from unstructured docs, cutting manual review by 40%.",
+        "Production anomaly detection boosted issue discovery by 30% over rule-based baselines.",
+        "Designed CI/CD for model rollout with Docker + CodePipeline enabling weekly AI updates.",
+        "Optimized GPU workloads via spot strategies and batching, trimming compute spend by 15%.",
+        "Mentored engineers on deep learning, prompt design, and AI architecture."
+      ],
+      "technologies": "Python, TensorFlow, PyTorch, Transformers, AWS (EC2, Lambda, SageMaker, S3), Docker."
+    }
   ],
   "education": [
     {
       "degree": "Master of Science, Data Science",
       "institution": "University of Wisconsin-Milwaukee",
-      "period": "Graduated May 2025",
+      "period": "Graduated Jun 2025",
+      "gpa": "GPA 3.8/4.0",
       "focus": "Focus: Deep Learning, NLP, AI Systems.",
       "coursework": "Coursework: Deep Learning, NLP, Neural Networks, Reinforcement Learning, AI Ethics."
     },
@@ -311,12 +286,13 @@
     {
       "name": "PCAP \u2013 Certified Associate Python Programmer",
       "issuer": "Python Institute",
+      "id": "ID: vB99.kWT4.qdWW",
       "status": "Completed"
     },
     {
       "name": "AWS Certified Solutions Architect \u2013 Associate",
       "issuer": "In Progress",
-      "id": "Exam: Jul 2026",
+      "id": "Exam: Dec 2025",
       "status": "In progress"
     },
     {
@@ -332,4 +308,5 @@
       "status": "Completed"
     }
   ]
+}
 }
