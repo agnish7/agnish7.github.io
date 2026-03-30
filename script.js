@@ -27,7 +27,7 @@ async function loadPortfolioData() {
 function populateContent() {
   if (!portfolioData) return;
 
- const { personal, stats, currentFocus, summary, skills, projects, education, publications, certifications } = portfolioData;
+  const { personal, stats, currentFocus, summary, skills, projects, experience, education, publications, certifications } = portfolioData;
 
   // Navigation
   document.getElementById('nav-brand').textContent = personal.name;
@@ -116,20 +116,19 @@ function populateContent() {
     </article>`
   ).join('');
 
-  //Experience
+  // Experience
   const experienceTimeline = document.getElementById('experience-timeline');
-experienceTimeline.innerHTML = experience.map(exp => 
-  `<div class="timeline-item">
-    <div class="timeline-date">${exp.period} · ${exp.company} · ${exp.location}</div>
-    <h3>${exp.role}</h3>
-    <ul>
-      ${exp.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
-    </ul>
-    <div class="stack-line">Tech: ${exp.technologies}</div>
-  </div>`
-).join('');
-  
-  
+  experienceTimeline.innerHTML = experience.map(exp => 
+    `<div class="timeline-item">
+      <div class="timeline-date">${exp.period} · ${exp.company} · ${exp.location}</div>
+      <h3>${exp.role}</h3>
+      <ul>
+        ${exp.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
+      </ul>
+      <div class="stack-line">Tech: ${exp.technologies}</div>
+    </div>`
+  ).join('');
+
   // Education
   const educationGrid = document.getElementById('education-grid');
   educationGrid.innerHTML = education.map(edu => 
