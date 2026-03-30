@@ -117,6 +117,47 @@ function populateContent() {
   ).join('');
 
   // Experience
+  const experience = [
+  {
+    role: "Agentic AI / GenAI Engineer",
+    company: "Delta Dental",
+    location: "Oak Brook, IL",
+    period: "Aug 2025 – Feb 2026",
+    achievements: [
+      "Designed multi-agent AI workflows using AWS Bedrock",
+      "Built RAG pipelines using FAISS, Pinecone, pgvector",
+      "Implemented LangChain & LangGraph orchestration",
+      "Developed NL2SQL using OpenAI & Claude",
+      "Built observability using CloudWatch & MLflow"
+    ],
+    technologies: "Python, AWS Bedrock, LangChain, LangGraph, DSPy, OpenAI, Pinecone, FAISS, MLflow"
+  },
+  {
+    role: "Junior Data Scientist",
+    company: "HCL Technologies",
+    location: "Hyderabad, India",
+    period: "Oct 2021 – Jul 2023",
+    achievements: [
+      "Built ML models for credit risk prediction",
+      "Developed Spark pipelines on Hadoop",
+      "Created dashboards using Tableau",
+      "Improved model performance and analytics"
+    ],
+    technologies: "Python, R, SQL, Spark, Hadoop, XGBoost, Tableau"
+  },
+  {
+    role: "Software Engineer",
+    company: "VDOT Technologies",
+    location: "Bengaluru, India",
+    period: "Oct 2020 – Sep 2021",
+    achievements: [
+      "Built AWS pipelines processing 10M+ records daily",
+      "Created NLP dashboard reducing manual work by 40%",
+      "Implemented CI/CD for AI deployments"
+    ],
+    technologies: "Python, AWS, Docker, NLP"
+  }
+];
   const experienceTimeline = document.getElementById('experience-timeline');
   experienceTimeline.innerHTML = experience.map(exp => 
     `<div class="timeline-item">
