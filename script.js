@@ -116,7 +116,19 @@ function populateContent() {
     </article>`
   ).join('');
 
-
+  //Experience
+  const experienceTimeline = document.getElementById('experience-timeline');
+experienceTimeline.innerHTML = experience.map(exp => 
+  `<div class="timeline-item">
+    <div class="timeline-date">${exp.period} · ${exp.company} · ${exp.location}</div>
+    <h3>${exp.role}</h3>
+    <ul>
+      ${exp.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
+    </ul>
+    <div class="stack-line">Tech: ${exp.technologies}</div>
+  </div>`
+).join('');
+  
   
   // Education
   const educationGrid = document.getElementById('education-grid');
