@@ -1,331 +1,277 @@
 {
   "personal": {
-    "name": "Diran Dodda",
-    "title": "AI Engineer | Multi-Agent Architect | LLM Systems",
-    "tagline": "Building autonomous, production-grade AI experiences.",
-    "description": "I design and ship intelligent systems that blend multi-agent LLMs, retrieval pipelines, and scalable MLOps. From autonomous financial analysts to BERT-grade sentiment engines, I turn complex data into decisive products.",
-    "email": "doddadiran@gmail.com",
-    "phone": "(331) 425-1963",
-    "github": "https://github.com/dirandodda",
-    "location": "Milwaukee & Bengaluru",
+    "name": "Agnish Dutta",
+    "title": "Generative AI Developer | LLM Systems",
+    "tagline": "Building scalable data pipelines and AI-enabled data platforms.",
+    "description": "Generative AI Developer with 6+ years of experience building scalable data pipelines and AI-enabled data platforms using Python, SQL, and AWS. Hands-on experience implementing RAG-based systems and multi-agent workflows to improve knowledge access and operational efficiency. Strong foundation in high-performance data processing and backend systems using C++.",
+    "email": "agnishdutta5@gmail.com",
+    "phone": "+1 (404) 992-7180",
+    "github": "https://github.com/agnish7",
+    "linkedin": "https://linkedin.com/in/agnishdutta",
+    "location": "USA",
     "badges": [
-      "Multi-agent orchestration",
-      "RAG + semantic search",
-      "AWS MLOps"
+      "RAG & LLM Systems",
+      "Multi-Agent Workflows",
+      "AWS Data Platforms"
     ]
   },
   "stats": [
     {
-      "number": "200GB+",
-      "label": "Financial data autonomously processed"
+      "number": "6+",
+      "label": "Years of engineering experience"
     },
     {
-      "number": "15K/min",
-      "label": "Real-time BERT inferences"
+      "number": "60%",
+      "label": "Reduction in issue resolution time at Verizon"
     },
     {
-      "number": "92%",
-      "label": "Published NLP accuracy (Fake News)"
+      "number": "70%",
+      "label": "Improvement in large file read performance at MathWorks"
     }
   ],
   "currentFocus": {
-    "title": "Agentic LLM Systems",
-    "description": "Designing autonomous agents that plan, retrieve, and act - powered by retrieval-augmented generation, vector search, and structured decision policies.",
+    "title": "Generative AI & LLM Systems",
+    "description": "Building retrieval-augmented generation systems and multi-agent workflows that enable contextual knowledge access and scalable automation across enterprise environments.",
     "technologies": [
-      "LangChain",
-      "Claude / GPT-4",
-      "Tool use"
+      "AWS Bedrock",
+      "RAG Pipelines",
+      "Multi-Agent Systems"
     ],
     "details": [
       {
-        "label": "Deploy",
-        "value": "AWS (SageMaker, Lambda)"
+        "label": "Cloud",
+        "value": "AWS (Bedrock, Kendra, S3, Lambda)"
       },
       {
-        "label": "APIs",
-        "value": "FastAPI - Flask"
+        "label": "Languages",
+        "value": "Python, SQL, C++, Bash"
       },
       {
         "label": "Data",
-        "value": "Kafka - Spark - FAISS"
+        "value": "ETL, Data Pipelines, PostgreSQL"
       },
       {
-        "label": "Interfaces",
-        "value": "Streamlit - React"
+        "label": "Tools",
+        "value": "Docker, Git, Pandas, NumPy"
       }
     ]
   },
   "summary": [
     {
-      "title": "Operationalized intelligence",
-      "description": "Shipped multi-agent and RAG pipelines that automate financial analysis, reduce manual review by 70%, and deliver context-aware insights at production scale."
+      "title": "AI-Enabled Data Platforms",
+      "description": "Built scalable data pipelines and retrieval-based systems using Python, SQL, and AWS — reducing issue resolution time by 60% and enabling contextual knowledge access across enterprise workflows."
     },
     {
-      "title": "Low-latency systems",
-      "description": "Built BERT-driven sentiment inference serving 15K tweets per minute with sub-100ms latency, plus monitoring for drift and automated retraining."
+      "title": "High-Performance Systems",
+      "description": "Engineered data I/O workflows in C++ at MathWorks, improving large file read performance by 70% through optimized asynchronous processing for data-intensive production systems."
     },
     {
-      "title": "Cloud-native MLOps",
-      "description": "Containerized deployments on AWS with CI/CD, GPU cost optimizations, and robust APIs\u2014keeping models fresh and reliable in the wild."
+      "title": "Enterprise Data Engineering",
+      "description": "Designed ingestion, transformation, and retrieval pipelines for structured and unstructured data — supporting analytics, automation, and machine learning workflows at scale."
     }
   ],
   "skills": [
     {
-      "category": "AI & LLM Frameworks",
-      "technologies": "LangChain, LlamaIndex, OpenAI API, Hugging Face Transformers, Claude API."
+      "category": "Languages",
+      "technologies": "Python, SQL, C++, Bash"
     },
     {
-      "category": "Deep Learning",
-      "technologies": "PyTorch, TensorFlow, Keras, fine-tuning LLMs, transfer learning, neural architecture design."
+      "category": "Data Engineering",
+      "technologies": "ETL, ELT, Data Pipelines, Data Ingestion, Data Transformation, Data Processing, Data Modeling"
     },
     {
-      "category": "NLP",
-      "technologies": "BERT, LSTM, GPT, T5, Sentence Transformers, prompt engineering, RAG systems."
+      "category": "AI / LLM Systems",
+      "technologies": "RAG (Retrieval-Augmented Generation), LLM Integration, Multi-Agent Workflows, NLP, Semantic Search"
     },
     {
-      "category": "Vector & Retrieval",
-      "technologies": "FAISS, Pinecone, Chroma, semantic search, embedding pipelines, document retrieval."
+      "category": "Cloud & Data Platforms",
+      "technologies": "AWS (Bedrock, Kendra, S3, Lambda, EC2)"
     },
     {
-      "category": "MLOps & Deployment",
-      "technologies": "AWS (SageMaker, Lambda, EC2), Docker, CI/CD, model serving, FastAPI/Flask APIs."
+      "category": "Databases",
+      "technologies": "PostgreSQL, MySQL, NoSQL"
     },
     {
-      "category": "Data & Engineering",
-      "technologies": "Python, SQL, PySpark, Kafka, Airflow, ETL at scale, interactive AI interfaces (Streamlit, Gradio, React)."
+      "category": "Libraries & Tools",
+      "technologies": "Pandas, NumPy, Docker, Git"
+    },
+    {
+      "category": "Systems & Performance",
+      "technologies": "Asynchronous Processing, High-Performance Data Systems, Memory Optimization, GDB, Valgrind"
+    },
+    {
+      "category": "Practices",
+      "technologies": "Agile, Scrum, Debugging, Performance Optimization"
     }
   ],
   "projects": [
     {
-      "title": "Agentic AI Financial Analyst",
-      "description": "Autonomous multi-agent system processing 200GB+ of market data with FAISS-indexed SEC filings and ensemble forecasting.",
-      "tag": "LangChain - GPT-4 - AWS",
-      "github": "https://github.com/niftydiran-ui/Financial-ai-agent",
+      "title": "AI-Powered Document Retrieval & Processing System",
+      "description": "Document processing workflow using Python and AWS to ingest, organize, and retrieve unstructured content for question-answering and knowledge access.",
+      "tag": "Python - AWS - RAG",
       "highlights": [
-        "ReAct-style orchestration across 4 specialized agents with LangChain tool-use framework.",
-        "Prophet + XGBoost ensemble achieving R^2 0.88 for price signal predictions.",
-        "Streamlit interface for natural-language queries cutting analysis time by 70%.",
-        "Walk-forward validation with automated metrics tracking (MAE, RMSE, MAPE)."
+        "Built end-to-end pipeline for ingesting and retrieving unstructured content for Q&A use cases.",
+        "Implemented retrieval-augmented workflow combining parsing, indexing, and context-aware response generation.",
+        "Designed processing steps for extracting and transforming raw content into structured outputs for analytics and AI applications."
       ]
     },
     {
-      "title": "Real-Time Twitter Sentiment Analysis",
-      "description": "Production BERT inference stack serving 15K tweets/min with sub-100ms latency for brand monitoring.",
-      "tag": "PyTorch - Kafka - BERT",
-      "github": "https://github.com/niftydiran-ui/twittersentiment",
+      "title": "Multi-Agent Conversation for Disease Diagnosis",
+      "description": "Multi-agent LLM system simulating doctor-patient dialogue for disease diagnosis using agentic conversation patterns and medical reasoning.",
+      "tag": "Python - LLMs - Multi-Agent",
+      "github": "https://github.com/agnish7/multi-agent-conversation-for-disease-diagnosis",
       "highlights": [
-        "Streaming NLP architecture (Kafka + PySpark + BERT) with intelligent caching for burst traffic.",
-        "LSTM and BERT ensemble classifying tweets into Positive/Negative/Neutral sentiment.",
-        "Live Streamlit dashboard enabling faster response to sentiment swings.",
-        "Fine-tuned domain models boosting accuracy by 12% over baseline transformers."
+        "Multi-agent architecture coordinating diagnostic reasoning across specialized agents.",
+        "Agentic conversation patterns for structured medical knowledge retrieval.",
+        "Modular Python pipeline supporting extensible diagnosis workflows."
       ]
     },
     {
-      "title": "Agentic Stock Price Predictor",
-      "description": "ML-driven stock prediction with walk-forward backtesting and automated trading signals.",
-      "tag": "XGBoost - yfinance - Python",
-      "github": "https://github.com/niftydiran-ui/stockprediction",
+      "title": "Text Analysis Using NLP (Streamlit)",
+      "description": "Interactive Streamlit app for text analytics — sentiment analysis, keyword extraction, and NLP-driven insights on user-supplied text.",
+      "tag": "Python - Streamlit - NLP",
+      "github": "https://github.com/agnish7/text-analysis-using-nlp-streamlit",
       "highlights": [
-        "Technical feature engineering with RSI, MACD, Bollinger Bands, and rolling statistics.",
-        "Walk-forward validation with transaction cost modeling (2 bps per trade).",
-        "Automated equity curve and drawdown analysis with metrics (CAGR, Sharpe, max drawdown).",
-        "Agent-based architecture following Observe-Think-Act-Reflect pattern for autonomous trading."
+        "Interactive web interface built with Streamlit for real-time text analysis.",
+        "NLP pipeline for sentiment classification and keyword extraction.",
+        "Lightweight deployment-ready architecture for quick experimentation."
       ]
     },
     {
-      "title": "Conversational AI Support Bot",
-      "description": "GPT-powered chatbot with RAG system resolving 85% of 1K+ daily support tickets across 5K+ docs.",
-      "tag": "OpenAI - Pinecone - React",
+      "title": "Multimodal Live RAG Voice",
+      "description": "Multimodal RAG system combining voice input with retrieval-augmented generation for live conversational knowledge access.",
+      "tag": "RAG - Voice - Multimodal",
+      "github": "https://github.com/agnish7/multimodal-live-rag-voice",
       "highlights": [
-        "Production prompts with conversation memory and safety guardrails.",
-        "Vector search over company knowledge base using Pinecone embeddings.",
-        "Feedback loop capturing failed queries for iterative tuning and improvement.",
-        "Seamless context handoff to human agents with conversation state preservation."
+        "Combines voice input with retrieval-augmented generation for hands-free Q&A.",
+        "Multimodal approach integrating audio and text for richer context understanding.",
+        "Real-time pipeline supporting live conversational interactions."
       ]
     },
     {
-      "title": "Fake News Detection AI",
-      "description": "Published NLP classifier achieving 92% accuracy on 20K+ news articles with explainability.",
-      "tag": "TensorFlow - BERT - LIME",
+      "title": "End-to-End Pipeline: Snowflake + dbt + Tableau",
+      "description": "Complete data engineering pipeline using Snowflake for warehousing, dbt for transformation, and Tableau for visualization.",
+      "tag": "Snowflake - dbt - Tableau",
+      "github": "https://github.com/agnish7/end-to-end-pipeline-snowflake-dbt-tableau",
       "highlights": [
-        "Compared BERT transformers vs. traditional ML pipelines (SVM, Random Forest, Naive Bayes).",
-        "Attention weight visualizations showing model reasoning for interpretability.",
-        "Linguistic and credibility feature engineering improving robustness to adversarial examples.",
-        "Published in International Journal of Advanced Computer Science (2024)."
+        "End-to-end data pipeline from ingestion through transformation to visualization.",
+        "dbt models for clean, testable SQL transformations in Snowflake.",
+        "Tableau dashboards for business intelligence and reporting."
       ]
     },
     {
-      "title": "Hospital Resource Optimization Agent",
-      "description": "Multi-agent RL system with LSTM forecasting reducing ICU wait times and emergency latency.",
-      "tag": "Reinforcement Learning - LSTM - FastAPI",
+      "title": "Vulnerability Detection",
+      "description": "Research project on automated software vulnerability detection using machine learning and NLP techniques.",
+      "tag": "Python - TeX - ML - Security",
+      "github": "https://github.com/agnish7/vulnerabilitydetection",
       "highlights": [
-        "Integrated Prophet/LSTM admission forecasts with RL policies for dynamic bed allocation.",
-        "Multi-objective optimization balancing wait times, utilization, and patient outcomes.",
-        "Simulation environment for policy validation before production rollout.",
-        "FastAPI deployment handling 1000+ req/sec with real-time decisions."
+        "ML-based approach to detecting software vulnerabilities from source code.",
+        "Research paper with comprehensive evaluation and analysis.",
+        "Python pipeline for feature extraction and classification."
       ]
     },
     {
-      "title": "Hybrid Music Recommender System",
-      "description": "IEEE-published neural recommender achieving MAP@10: 0.85 via collaborative + content fusion.",
-      "tag": "PyTorch - RecSys",
+      "title": "Phoneme Recognition Using GMM",
+      "description": "Gaussian Mixture Model-based phoneme recognition system for speech processing and audio analysis.",
+      "tag": "Python - GMM - Speech",
+      "github": "https://github.com/agnish7/Phoneme-recognition-using-GMM",
       "highlights": [
-        "Two-tower architecture learning user/item embeddings over 1M+ interactions.",
-        "Cold-start solved via content features (audio, metadata, lyrics).",
-        "A/B tests demonstrated double-digit relevance lift and engagement.",
-        "Published at IEEE Conference on Recommender Systems (2023)."
+        "GMM-based acoustic modeling for phoneme classification.",
+        "Audio feature extraction and signal processing pipeline.",
+        "Evaluation framework for recognition accuracy benchmarking."
       ]
     },
     {
-      "title": "Data Science Practice Portfolio",
-      "description": "Comprehensive notebooks covering deep learning, NLP, CV, and data analysis workflows.",
-      "tag": "Python - Jupyter - scikit-learn",
-      "github": "https://github.com/niftydiran-ui/data-science-ipython-notebooks",
+      "title": "Single-Class SVM for Speaker Change Detection",
+      "description": "Event detection in audio using single-class SVM for identifying speaker change points in conversations.",
+      "tag": "Python - SVM - Audio",
+      "github": "https://github.com/agnish7/RE-DS902-Single-class-SVM-for-speaker-change-detection.",
       "highlights": [
-        "End-to-end ML pipelines from data preprocessing to deployment.",
-        "Advanced visualization with Matplotlib, Seaborn, and Plotly.",
-        "Statistical analysis, hypothesis testing, and experiment tracking.",
-        "Reproducible research patterns for faster iteration."
+        "Single-class SVM approach for unsupervised speaker change detection.",
+        "Audio segmentation pipeline for conversation analysis.",
+        "Research-driven evaluation on real-world audio datasets."
       ]
     },
     {
-      "title": "NLP Entity Recognition System",
-      "description": "spaCy-based NER pipeline with custom training and production API serving.",
-      "tag": "spaCy - NLP - Python",
-      "github": "https://github.com/niftydiran-ui/spacy",
+      "title": "Particle Explosion Simulation",
+      "description": "Interactive particle explosion simulation built in C++ demonstrating graphics programming and physics modeling.",
+      "tag": "C++ - Graphics - Simulation",
+      "github": "https://github.com/agnish7/Particle-explosion-simulation",
       "highlights": [
-        "Custom entity models trained on domain-specific datasets.",
-        "Efficient text processing pipelines handling millions of documents.",
-        "Integration with knowledge graphs for entity linking and disambiguation.",
-        "RESTful API for real-time entity extraction in production."
-      ]
-    },
-    {
-      "title": "Agentic RAG with CrewAI",
-      "description": "Personal project exploring CrewAI multi-agent RAG patterns with orchestrated roles.",
-      "tag": "CrewAI - RAG - Python",
-      "github": "https://github.com/niftydiran-ui/agentic-rag-with-crewai",
-      "highlights": [
-        "Crew of manager/worker agents for retrieval, reasoning, and synthesis.",
-        "Config-driven pipeline to swap tools and data sources quickly.",
-        "Lightweight evaluation hooks for prompt and retrieval quality."
-      ]
-    },
-    {
-      "title": "Multi-Agentic RAG",
-      "description": "Interactive RAG application built for parallel agent workflows and continuous learning.",
-      "tag": "LangChain - RAG - Python",
-      "github": "https://github.com/niftydiran-ui/multi-agentic-rag",
-      "highlights": [
-        "Parallel retriever/synthesizer agents with shared memory.",
-        "Topic-aware chunking to keep context relevant and concise.",
-        "CLI + notebook utilities for quick experimentation."
-      ]
-    },
-    {
-      "title": "Profile & Branding (niftydiran-ui)",
-      "description": "Public GitHub profile README highlighting AI focus and project links.",
-      "tag": "Markdown",
-      "github": "https://github.com/niftydiran-ui/niftydiran-ui",
-      "highlights": [
-        "Elevator pitch and skills snapshot for recruiters and collaborators.",
-        "Links out to flagship AI/ML projects and notebooks.",
-        "Lightweight, fast-loading profile landing page."
+        "Real-time particle physics simulation with C++.",
+        "Visual effects rendering with custom graphics pipeline.",
+        "Performance-optimized for smooth interactive visualization."
       ]
     }
   ],
   "experience": [
-  {
-    "role": "Agentic AI / GenAI Engineer",
-    "company": "Delta Dental",
-    "location": "Oak Brook, IL",
-    "period": "Aug 2025 – Feb 2026",
-    "achievements": [
-      "Designed multi-agent AI workflows using AWS Bedrock",
-      "Built RAG pipelines using FAISS, Pinecone, and pgvector",
-      "Implemented LangChain and LangGraph orchestration",
-      "Developed NL2SQL using OpenAI and Claude",
-      "Built observability using CloudWatch and MLflow"
-    ],
-    "technologies": "Python, AWS Bedrock, LangChain, LangGraph, DSPy, OpenAI, Pinecone, FAISS, MLflow"
-  },
-  {
-    "role": "Junior Data Scientist",
-    "company": "HCL Technologies",
-    "location": "Hyderabad, India",
-    "period": "Oct 2021 – Jul 2023",
-    "achievements": [
-      "Built ML models for credit risk prediction",
-      "Developed Spark pipelines on Hadoop",
-      "Created dashboards using Tableau",
-      "Improved model performance and analytics delivery"
-    ],
-    "technologies": "Python, R, SQL, Spark, Hadoop, XGBoost, Tableau"
-  },
-  {
-    "role": "Software Engineer",
-    "company": "V dot Technologies",
-    "location": "Bengaluru, India",
-    "period": "Oct 2020 – Sep 2021",
-    "achievements": [
-      "Designed and deployed automated data analytics pipelines using AWS Glue, Lambda, and S3",
-      "Implemented Dockerized ETL workflows with CI/CD via AWS CodePipeline",
-      "Improved operational efficiency through infrastructure-as-code using AWS CloudFormation",
-      "Improved dashboard accuracy by resolving data quality issues",
-      "Monitored pipeline health and reduced downstream reporting errors"
-    ],
-    "technologies": "Python, AWS, Docker, Pandas, NumPy"
+    {
+      "role": "Generative AI Developer - LLM Systems",
+      "company": "Verizon",
+      "location": "GA, USA",
+      "period": "Apr 2024 - Present",
+      "achievements": [
+        "Built scalable data pipelines using Python, SQL, and AWS to process structured and unstructured enterprise data, improving availability for analytics, automation, and AI applications",
+        "Developed retrieval-based system using AWS Bedrock and Kendra, reducing technical issue resolution time by 60% across support workflows",
+        "Designed multi-agent workflows coordinating data ingestion, retrieval, and processing tasks across distributed enterprise production environments",
+        "Created data ingestion and transformation pipelines for documents, logs, and web content, standardizing formats for downstream analytics and ML workflows",
+        "Built automated pipeline for extracting and structuring school calendar data using web crawling and parsing techniques",
+        "Improved data retrieval quality and system reliability by organizing enterprise content for better searchability and contextual matching",
+        "Collaborated with engineering and business teams to translate requirements into scalable data solutions"
+      ],
+      "technologies": "Python, SQL, AWS Bedrock, AWS Kendra, AWS S3, AWS Lambda, Multi-Agent Workflows, RAG"
+    },
+    {
+      "role": "Software Engineer - Data Systems & High-Performance Processing",
+      "company": "MathWorks",
+      "location": "Bengaluru, India",
+      "period": "Jan 2019 - Aug 2022",
+      "achievements": [
+        "Designed high-performance data I/O workflows in C++ for large-scale image and scientific datasets",
+        "Engineered reusable libraries for handling JPG and TIFF data formats, improving performance and maintainability across multiple teams",
+        "Improved large file read performance by up to 70% by optimizing asynchronous I/O workflows",
+        "Extended support for scientific data formats by enhancing CDF processing capabilities, eliminating dependency on external patches",
+        "Built and maintained core data access functionality for reading and writing large datasets",
+        "Diagnosed and resolved complex memory and performance issues using GDB and Valgrind",
+        "Collaborated with product and engineering teams to deliver scalable backend solutions"
+      ],
+      "technologies": "C++, GDB, Valgrind, Asynchronous I/O, JPG, TIFF, CDF, Data Systems"
+    },
+    {
+      "role": "Software Engineer - Data Processing & Backend Systems",
+      "company": "CitiusTech",
+      "location": "Bengaluru, India",
+      "period": "Jul 2016 - Jul 2017",
+      "achievements": [
+        "Developed backend data processing components using C++ and SQL for healthcare analytics and reporting systems",
+        "Contributed to data ingestion and transformation logic for structured datasets, improving pipeline reliability",
+        "Supported debugging and performance testing of backend systems handling large datasets",
+        "Worked with senior engineers on system architecture and feature development aligned with business requirements",
+        "Participated in Agile development processes, contributing to sprint tasks, code reviews, and continuous improvement"
+      ],
+      "technologies": "C++, SQL, Healthcare Analytics, Backend Systems, Agile"
+    }
+  ],
   "education": [
     {
-      "degree": "Master of Science, Data Science",
-      "institution": "University of Wisconsin-Milwaukee",
-      "period": "Graduated May 2025",
-      "focus": "Focus: Deep Learning, NLP, AI Systems.",
-      "coursework": "Coursework: Deep Learning, NLP, Neural Networks, Reinforcement Learning, AI Ethics."
+      "degree": "Master of Science in Computer Science",
+      "institution": "Georgia Institute of Technology",
+      "period": "Aug 2022 - Aug 2024",
+      "location": "Atlanta, Georgia, USA"
     },
     {
-      "degree": "Bachelor of Technology, Data Science",
-      "institution": "Jain University",
-      "period": "Graduated May 2022",
-      "location": "Bengaluru, India"
+      "degree": "Master of Technology in Information Technology",
+      "institution": "IIIT Bangalore",
+      "period": "Aug 2017 - Jun 2019",
+      "location": "Bengaluru, Karnataka, India"
+    },
+    {
+      "degree": "Bachelor of Engineering in Mechatronics",
+      "institution": "Thapar Institute of Engineering and Technology",
+      "period": "Aug 2012 - Jun 2016",
+      "location": "Punjab, India"
     }
   ],
-  "publications": [
-    {
-      "title": "Fake News Detection Using NLP",
-      "venue": "International Journal of Advanced Computer Science (2024)",
-      "description": "Deep learning classifier with 92% accuracy; compared transformers vs. traditional ML with interpretability.",
-      "tag": "Published"
-    },
-    {
-      "title": "Hybrid Music Recommender System",
-      "venue": "IEEE Conference Paper (2023)",
-      "description": "Neural collaborative filtering fused with content-based deep learning achieving MAP@10: 0.85.",
-      "tag": "IEEE"
-    }
-  ],
-  "certifications": [
-    {
-      "name": "PCAP \u2013 Certified Associate Python Programmer",
-      "issuer": "Python Institute",
-      "status": "Completed"
-    },
-    {
-      "name": "AWS Certified Solutions Architect \u2013 Associate",
-      "issuer": "In Progress",
-      "id": "Exam: Jul 2026",
-      "status": "In progress"
-    },
-    {
-      "name": "LangChain for LLM Application Development",
-      "issuer": "DeepLearning.AI",
-      "id": "Completed",
-      "status": "Completed"
-    },
-    {
-      "name": "OpenAI Prompt Engineering Course",
-      "issuer": "Completed",
-      "id": "",
-      "status": "Completed"
-    }
-  ]
+  "publications": [],
+  "certifications": []
+}
